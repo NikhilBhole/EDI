@@ -1,0 +1,73 @@
+<ProcessCustomerOrderRequestMessage xmlns='http://xml.chrobinson.com/Oesi/v1' xmlns:baseRequest='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageBaseRequest.xsd' xmlns:baseResponse='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageBaseResponse.xsd' xmlns:Header='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageHeader.xsd' ProcessType="CREATE" EDIDocType="EDI" >
+  <Header:Header MessageID="-1" SourceSystem="EDI" UserID="System" AckRequested="0"/>
+  <CustomerOrder CustomerOrderID="-1" SourceRDN="480" ConditionRDN="379" ReceivedDateTime="2019-07-15T18:18:17" Notes="Loaded Distance 0.0 MI" ></CustomerOrder>
+  <ListofOrderParties>
+    <CustomerOrderParties CustomerOrderPartyID="-201" CustomerOrderID="-1" PartyRoleRDN="7" PartyCode="C2116708" ></CustomerOrderParties>
+    <CustomerOrderParties CustomerOrderPartyID="-202" CustomerOrderID="-1" PartyRoleRDN="326" PartyCode="C2116708" EDIFreightTermsCode="TP" CurrencyCode="USD" ></CustomerOrderParties>
+  </ListofOrderParties>
+  <ListofCustomerOrderServices>
+    <CustomerOrderServices CustomerOrderServiceID="-3" CustomerOrderID="-1" ExpeditedYN="0" SellMode="TL" ></CustomerOrderServices>
+  </ListofCustomerOrderServices>
+  <ListofCustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1001" ProductName="AUTOMOTIVE PARTS" UnitQuantity="23" UnitPackagingCode="PLT" SKU="1" UnitVolumeCode="CubicFeet" TotalMinWeight="10000" TotalWeight="10000" UnitWeightCode="Pounds" TotalInsuranceValue="43478.26" TotalPallets="23" TotalTrailerFeetUsed="53" ActualUnitQuantity="23" ActualTotalPallets="23.0" ActualTotalWeight="10000.0" PickSequenceNumber="1" >
+      <ListofCustomerItemAttributes>
+        <CustomerItemAttribute AttributeID="-3001" ItemID="-1001" CustomerSpecificCommodityTypeCode="Cust1" Value="56594702" ></CustomerItemAttribute>
+      </ListofCustomerItemAttributes>
+    </CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1002" ProductName="AUTOMOTIVE PARTS" UnitQuantity="24" UnitPackagingCode="PLT" SKU="1" UnitVolumeCode="CubicFeet" TotalMinWeight="10000" TotalWeight="10000" UnitWeightCode="Pounds" TotalInsuranceValue="41666.67" TotalPallets="24" TotalTrailerFeetUsed="53" ActualUnitQuantity="24" ActualTotalPallets="24.0" ActualTotalWeight="10000.0" PickSequenceNumber="2" >
+      <ListofCustomerItemAttributes>
+        <CustomerItemAttribute AttributeID="-3000" ItemID="-1002" CustomerSpecificCommodityTypeCode="Cust1" ></CustomerItemAttribute>
+      </ListofCustomerItemAttributes>
+    </CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1003" ProductName="AUTOMOTIVE PARTS" UnitQuantity="20" UnitPackagingCode="PLT" SKU="1" UnitVolumeCode="CubicFeet" TotalMinWeight="10000" TotalWeight="10000" UnitWeightCode="Pounds" TotalInsuranceValue="50000" TotalPallets="20" TotalTrailerFeetUsed="53" ActualTotalPallets="20.0" ActualTotalWeight="10000.0" PickSequenceNumber="3" >
+      <ListofCustomerItemAttributes>
+        <CustomerItemAttribute AttributeID="-2999" ItemID="-1003" CustomerSpecificCommodityTypeCode="Cust1" ></CustomerItemAttribute>
+      </ListofCustomerItemAttributes>
+    </CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1004" ProductName="AUTOMOTIVE PARTS" UnitQuantity="20" UnitPackagingCode="PLT" SKU="1" UnitVolumeCode="CubicFeet" TotalMinWeight="10000" TotalWeight="10000" UnitWeightCode="Pounds" TotalInsuranceValue="50000" TotalPallets="20" TotalTrailerFeetUsed="53" ActualTotalPallets="20.0" ActualTotalWeight="10000.0" PickSequenceNumber="4" >
+      <ListofCustomerItemAttributes>
+        <CustomerItemAttribute AttributeID="-2998" ItemID="-1004" CustomerSpecificCommodityTypeCode="Cust1" ></CustomerItemAttribute>
+      </ListofCustomerItemAttributes>
+    </CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1005" UnitVolumeCode="CubicFeet" UnitWeightCode="Pounds" DropSequenceNumber="5" >
+      <ListofCustomerItemAttributes>
+        <CustomerItemAttribute AttributeID="-2997" ItemID="-1005" CustomerSpecificCommodityTypeCode="Cust1" Value="56594702" ></CustomerItemAttribute>
+      </ListofCustomerItemAttributes>
+    </CustomerOrderItems>
+  </ListofCustomerOrderItems>
+  <ListofCustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-401" StopRoleRDN="2094" LocationName="SYNERGIES CASTINGS USA INC" CustomerEDILocationNumber="803601454" StreetAddress1="14750 Northam" City="La Mirada" StateCode="CA" PostalCode="90638" Country="US" OpenDateTime="2018-09-14T18:00:00" CloseDateTime="2018-09-14T19:00:00" SpecialInstructions="PICK UP ON/BEFORE DATE: 9142018 Eastern Time : 1900" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-402" StopRoleRDN="2094" LocationName="Rail Cut" CustomerEDILocationNumber="Rail CUT" StreetAddress1="RAIL CUT TIME- 24 hr delay if missed" Country="US" OpenDateTime="2018-09-17T01:00:00" CloseDateTime="2018-09-17T04:00:00" SpecialInstructions="PICK UP ON/BEFORE DATE: 9172018 Eastern Time : 400" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-403" StopRoleRDN="2094" LocationName="Container on Chassis" CustomerEDILocationNumber="Available" StreetAddress1="Available at yard" Country="US" OpenDateTime="2018-09-20T05:00:00" CloseDateTime="2018-09-20T06:00:00" SpecialInstructions="PICK UP ON/BEFORE DATE: 9202018 Eastern Time : 600" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-404" StopRoleRDN="2094" LocationName="Outgate from Rail Ramp" CustomerEDILocationNumber="outgated" StreetAddress1="outgated" Country="US" OpenDateTime="2018-09-20T07:00:00" CloseDateTime="2018-09-20T08:00:00" SpecialInstructions="PICK UP ON/BEFORE DATE: 9202018 Eastern Time : 800" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-405" StopRoleRDN="2094" LocationName="OAKLEY INDUSTRIES" CustomerEDILocationNumber="048065666" StreetAddress1="4333 MATHEW DR" City="FLINT" StateCode="MI" PostalCode="48507" Country="US" OpenDateTime="2018-09-21T09:00:00" CloseDateTime="2018-09-21T10:00:00" SpecialInstructions="PICK UP ON/AFTER DATE: 9212018 Eastern Time : 1000" ></CustomerOrderLocations>
+  </ListofCustomerOrderLocations>
+  <ListofReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20001" ForeignID="-1" EntityID="1" ReferenceDataCode="CITTN" Value="28157224" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20002" ForeignID="-1" EntityID="1" ReferenceDataCode="CON" Value="28157224" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20003" ForeignID="-1" EntityID="1" ReferenceDataCode="JNO" Value="RYDD" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20004" ForeignID="-1" EntityID="1" ReferenceDataCode="SCAC" Value="RBIN" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20005" ForeignID="-1" EntityID="1" ReferenceDataCode="SHID" Value="28157224" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20006" ForeignID="-1" EntityID="1" ReferenceDataCode="XXXX" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20007" ForeignID="-1" EntityID="1" ReferenceDataCode="ORD" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20008" ForeignID="-201" EntityID="2" ReferenceDataCode="MBOL" Value="28157224" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20009" ForeignID="-202" EntityID="2" ReferenceDataCode="SHID" Value="28157224" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20010" ForeignID="-202" EntityID="2" ReferenceDataCode="PENDING" Value="FLM004YVer01Leg1" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20011" ForeignID="-401" EntityID="5" ReferenceDataCode="PU" Value="KI" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20012" ForeignID="-401" EntityID="5" ReferenceDataCode="SEAL" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20013" ForeignID="-401" EntityID="5" ReferenceDataCode="BOL" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20014" ForeignID="-401" EntityID="5" ReferenceDataCode="SREF" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20015" ForeignID="-401" EntityID="5" ReferenceDataCode="ORD" Value="82508089" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20016" ForeignID="-401" EntityID="5" ReferenceDataCode="SREF" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20017" ForeignID="-401" EntityID="5" ReferenceDataCode="ORD" Value="82508089" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20018" ForeignID="-401" EntityID="5" ReferenceDataCode="DEL" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20019" ForeignID="-1001" EntityID="4" ReferenceDataCode="PO" ></ReferenceNumbers>
+  </ListofReferenceNumbers>
+  <ListofContacts>
+    <Contacts ContactID="-502" ForeignID="-402" EntityID="5" ContactTypeCode="contact" >
+      <ListofContactMethods>
+        <ContactMethods ContactMethodID="-551" ContactID="-502" MethodTypeCode="PHONE_GENR" ></ContactMethods>
+      </ListofContactMethods>
+    </Contacts>
+  </ListofContacts>
+</ProcessCustomerOrderRequestMessage>

@@ -1,0 +1,64 @@
+<TranslationReport><![CDATA[[Map Name: 204_CHR_EDI_TO_XML Version: 7/15/19 6:18 PM
+
+Translation Report
+==================
+Contains errors ? true
+Contains warnings ? false
+There are 6 entries in the report
+Report Entry:
+       Section: HEADER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 20 Translation Object Name
+       Info:
+              20: Translation Object Name
+              204_CHR_EDI_TO_XML
+Report Entry:
+       Section: HEADER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 12 Start Time
+       Info:
+              12: Start Time
+              Mon Jul 15 18:18:17 IST 2019
+Report Entry:
+       Section: INPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 999 
+       Info:
+              10007: Group Name
+              TEMP_ContactMethods2:2
+              10010: Instance
+              01:01:01
+              10008: Field Id
+              1
+              10005: Field Data
+              -550
+              10019: Location Index
+              0
+Report Entry:
+       Section: OUTPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 100 Mandatory Data Missing
+       Info:
+              10002: Block Count
+              104
+              10017: Map Iteration Count
+              1
+              10003: Block Name
+              ContactMethods
+              10016: Block Signature ID Tag
+              ContactMethods
+              10004: Field Name
+              Value:3
+              10009: Field Number
+              4
+              10019: Location Index
+              01:01:01
+Report Entry:
+       Section: TRAILER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 13 End Time
+       Info:
+              13: End Time
+              Mon Jul 15 18:18:17 IST 2019
+Report Entry:
+       Section: TRAILER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 19 Execution Time (ms)
+       Info:
+              19: Execution Time (ms)
+              0
+]]></TranslationReport>
