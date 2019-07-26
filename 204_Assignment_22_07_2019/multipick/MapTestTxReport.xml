@@ -1,0 +1,50 @@
+<TranslationReport><![CDATA[[Map Name: 204_CHR_Project_Santosh Version: 7/24/19 2:43 PM
+
+Translation Report
+==================
+Contains errors ? true
+Contains warnings ? false
+There are 5 entries in the report
+Report Entry:
+       Section: HEADER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 20 Translation Object Name
+       Info:
+              20: Translation Object Name
+              204_CHR_Project_Santosh
+Report Entry:
+       Section: HEADER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 12 Start Time
+       Info:
+              12: Start Time
+              Wed Jul 24 14:43:27 IST 2019
+Report Entry:
+       Section: OUTPUT       Severity: ERROR
+       SyntaxSpecific: false       Syntax: -1        Code: 100 Mandatory Data Missing
+       Info:
+              10002: Block Count
+              9
+              10017: Map Iteration Count
+              1
+              10003: Block Name
+              CustomerOrderParties_Bill
+              10016: Block Signature ID Tag
+              CustomerOrderParties
+              10004: Field Name
+              PartyCode:3
+              10009: Field Number
+              4
+              10019: Location Index
+              0
+Report Entry:
+       Section: TRAILER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 13 End Time
+       Info:
+              13: End Time
+              Wed Jul 24 14:43:27 IST 2019
+Report Entry:
+       Section: TRAILER       Severity: INFO
+       SyntaxSpecific: false       Syntax: -1        Code: 19 Execution Time (ms)
+       Info:
+              19: Execution Time (ms)
+              49
+]]></TranslationReport>

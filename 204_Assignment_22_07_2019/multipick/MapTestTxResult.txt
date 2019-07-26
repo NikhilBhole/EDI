@@ -1,0 +1,43 @@
+<ProcessCustomerOrderRequestMessage xmlns='http://xml.chrobinson.com/Oesi/v1' xmlns:baseRequest='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageBaseRequest.xsd' xmlns:baseResponse='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageBaseResponse.xsd' xmlns:Header='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageHeader.xsd' ProcessType="Create" EDIDocType="EDI" >
+  <Header:Header MessageID="-1" SourceSystem="EDI" TimeStamp="2019-07-24T14:43:27" UserID="System" AckRequested="0" ></Header:Header>
+  <CustomerOrder CustomerOrderID="-1" SourceRDN="480" ConditionRDN="379" ReceivedDateTime="2019-07-24T14:43:27" Notes="TOTAL DISTANCE = 282 MI LD VALUE = 52646.4, LD VOL = 171 " ></CustomerOrder>
+  <ListofOrderParties>
+    <CustomerOrderParties CustomerOrderPartyID="-201" CustomerOrderID="-1" PartyRoleRDN="7" ></CustomerOrderParties>
+    <CustomerOrderParties CustomerOrderPartyID="-202" CustomerOrderID="-1" PartyRoleRDN="326" EDIFreightTermsCode="PP" CurrencyCode="USD" ></CustomerOrderParties>
+  </ListofOrderParties>
+  <ListofCustomerOrderServices>
+    <CustomerOrderServices CustomerOrderServiceID="-1" CustomerOrderID="-1" ExpeditedYN="0" SellMode="TL" ></CustomerOrderServices>
+  </ListofCustomerOrderServices>
+  <ListofCustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1001" UnitQuantity="5064" SKU="SI001" TotalVolume="82" UnitVolumeCode="CubicFeet" TotalWeight="5472" UnitWeightCode="Pounds" TotalInsuranceValue="16666" PickSequenceNumber="1" DropSequenceNumber="3" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1002" UnitQuantity="4057" SKU="SI002" TotalVolume="0" UnitVolumeCode="CubicFeet" TotalWeight="4057" UnitWeightCode="Pounds" TotalInsuranceValue="16666" PickSequenceNumber="1" DropSequenceNumber="3" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1003" UnitQuantity="4610" SKU="SI003" TotalVolume="0" UnitVolumeCode="CubicFeet" TotalWeight="4610" UnitWeightCode="Pounds" TotalInsuranceValue="16666" PickSequenceNumber="1" DropSequenceNumber="3" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1004" UnitQuantity="5064" SKU="SI004" TotalVolume="82" UnitVolumeCode="CubicFeet" TotalWeight="5472" UnitWeightCode="Pounds" TotalInsuranceValue="16666" PickSequenceNumber="2" DropSequenceNumber="4" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1005" UnitQuantity="4057" SKU="SI005" TotalVolume="0" UnitVolumeCode="CubicFeet" TotalWeight="4057" UnitWeightCode="Pounds" TotalInsuranceValue="16666" PickSequenceNumber="2" DropSequenceNumber="4" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1006" UnitQuantity="4610" SKU="SI006" TotalVolume="0" UnitVolumeCode="CubicFeet" TotalWeight="4610" UnitWeightCode="Pounds" TotalInsuranceValue="16666" PickSequenceNumber="2" DropSequenceNumber="4" ></CustomerOrderItems>
+  </ListofCustomerOrderItems>
+  <ListofCustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-401" StopRoleRDN="2094" LocationName="ESSEX GROUP, INC." CustomerEDILocationNumber="304" StreetAddress1="120 SOUTHEAST PARKWAY" StreetAddress2="ESSEX FRANKLIN PLANT" City="FRANKLIN" StateCode="TN" PostalCode="37064" Country="USA" OpenDateTime="2019-06-13T07:30:00" CloseDateTime="2019-06-13T15:30:00" LocationAddressNumber="1" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-402" StopRoleRDN="2094" LocationName="ESSEX GROUP, INC." CustomerEDILocationNumber="304" StreetAddress1="120 SOUTHEAST PARKWAY" StreetAddress2="ESSEX FRANKLIN PLANT" City="FRANKLIN" StateCode="TN" PostalCode="37064" Country="USA" OpenDateTime="2019-06-13T07:30:00" CloseDateTime="2019-06-13T15:30:00" LocationAddressNumber="2" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-403" StopRoleRDN="2096" LocationName="ESSEX GROUP, INC." CustomerEDILocationNumber="402" StreetAddress1="446 WESTRIDGE" StreetAddress2="PKWY BLDG 100" City="MCDONOUGH" StateCode="GA" PostalCode="30253" Country="USA" OpenDateTime="2019-06-14T08:00:00" CloseDateTime="2019-06-14T15:00:00" LocationAddressNumber="3" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-404" StopRoleRDN="2096" LocationName="ESSEX GROUP, INC." CustomerEDILocationNumber="402" StreetAddress1="446 WESTRIDGE" StreetAddress2="PKWY BLDG 100" City="MCDONOUGH" StateCode="GA" PostalCode="30253" Country="USA" OpenDateTime="2019-06-14T08:00:00" CloseDateTime="2019-06-14T15:00:00" LocationAddressNumber="4" ></CustomerOrderLocations>
+  </ListofCustomerOrderLocations>
+  <ListofCharges>
+    <Charges ChargeID="-9" Rate="726.14" RateCodeCode="400" ></Charges>
+  </ListofCharges>
+  <ListofChargeDetails>
+    <ChargeDetails ChargeDetailID="-16" ChargeID="-9" CustomerOrderPartyID="-202" ></ChargeDetails>
+  </ListofChargeDetails>
+  <ListofReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20001" ForeignID="-1" EntityID="1" ReferenceDataCode="CON" Value="788191987" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20002" ForeignID="-201" EntityID="2" ReferenceDataCode="MBOL" Value="788191987" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20003" ForeignID="-202" EntityID="2" ReferenceDataCode="SHID" Value="788191987" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20004" ForeignID="-202" EntityID="2" ReferenceDataCode="11" Value="SUPX" ></ReferenceNumbers>
+  </ListofReferenceNumbers>
+  <LoadValues EquipmentLength="5300" >
+    <ListofAvailableEquipmentTypes>
+      <AvailableEquipmentType AvailableEquipmentTypeID="-1201" EquipmentTypeRDN="1107" ></AvailableEquipmentType>
+      <AvailableEquipmentType AvailableEquipmentTypeID="-1202" EquipmentTypeRDN="1109" ></AvailableEquipmentType>
+    </ListofAvailableEquipmentTypes>
+  </LoadValues>
+</ProcessCustomerOrderRequestMessage>

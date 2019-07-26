@@ -1,0 +1,70 @@
+<ProcessCustomerOrderRequestMessage xmlns='http://xml.chrobinson.com/Oesi/v1' xmlns:baseRequest='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageBaseRequest.xsd' xmlns:baseResponse='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageBaseResponse.xsd' xmlns:Header='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageHeader.xsd' ProcessType="Create" EDIDocType="EDI" >
+  <Header:Header MessageID="-1" SourceSystem="EDI" TimeStamp="2019-07-22T05:16:33" UserID="System" AckRequested="0" ></Header:Header>
+  <CustomerOrder CustomerOrderID="-1" SourceRDN="480" ConditionRDN="379" ReceivedDateTime="2019-07-22T05:16:33" Notes="TOTAL DISTANCE = 306 MilesLD VALUE = 7081.64, LD VOL = 326" ></CustomerOrder>
+  <ListofOrderParties>
+    <CustomerOrderParties CustomerOrderPartyID="-201" CustomerOrderID="-1" PartyRoleRDN="7" PartyCode="C7168737" EDIFreightTermsCode="PP" CurrencyCode="USD" ></CustomerOrderParties>
+    <CustomerOrderParties CustomerOrderPartyID="-202" CustomerOrderID="-1" PartyRoleRDN="326" PartyCode="C7168737" EDIFreightTermsCode="PP" CurrencyCode="USD" ></CustomerOrderParties>
+  </ListofOrderParties>
+  <ListofCustomerOrderServices>
+    <CustomerOrderServices CustomerOrderServiceID="-3" CustomerOrderID="-1" ExpeditedYN="0" SellMode="TL" ></CustomerOrderServices>
+  </ListofCustomerOrderServices>
+  <ListofCustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1001" ProductName="10 HVY GP/MR 200 CU TF1000 P/P" CommodityCode="70" UnitQuantity="3351" UnitPackagingCode="PLT" TotalVolume="38" UnitVolumeCode="CubicFeet" TotalWeight="3516" UnitWeightCode="Pounds" TotalInsuranceValue="16666" TotalPallets="3351" PickSequenceNumber="1" DropSequenceNumber="3" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1002" ProductName="7 3/4 HVY GP/MR 200 CU TF1000 " CommodityCode="70" UnitQuantity="3311" UnitPackagingCode="PLT" TotalVolume="38" UnitVolumeCode="CubicFeet" TotalWeight="3476" UnitWeightCode="Pounds" TotalInsuranceValue="16666" TotalPallets="3311" PickSequenceNumber="1" DropSequenceNumber="3" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1003" ProductName="18 HVY GP/MR 200 CU TF1000 P/P" CommodityCode="70" UnitQuantity="4261" UnitPackagingCode="PLT" TotalVolume="76" UnitVolumeCode="CubicFeet" TotalWeight="4524" UnitWeightCode="Pounds" TotalInsuranceValue="16666" TotalPallets="4261" PickSequenceNumber="1" DropSequenceNumber="3" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1004" ProductName="14 HVY GP/MR 200 CU TF1000 P/P" CommodityCode="70" UnitQuantity="3632" UnitPackagingCode="PLT" TotalVolume="76" UnitVolumeCode="CubicFeet" TotalWeight="3895" UnitWeightCode="Pounds" TotalInsuranceValue="16666" TotalPallets="3632" PickSequenceNumber="1" DropSequenceNumber="3" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1005" ProductName="16 HVY GP/MR 200 CU TF1000 P/P" CommodityCode="70" UnitQuantity="3023" UnitPackagingCode="PLT" TotalVolume="38" UnitVolumeCode="CubicFeet" TotalWeight="3188" UnitWeightCode="Pounds" TotalInsuranceValue="16666" TotalPallets="3023" PickSequenceNumber="1" DropSequenceNumber="3" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1006" ProductName="17 TRIPLE GP/MR 200 CUTF600 RE" CommodityCode="70" UnitQuantity="2418" UnitPackagingCode="PLT" TotalVolume="60" UnitVolumeCode="CubicFeet" TotalWeight="2675" UnitWeightCode="Pounds" TotalInsuranceValue="16666" TotalPallets="2418" PickSequenceNumber="1" DropSequenceNumber="2" ></CustomerOrderItems>
+  </ListofCustomerOrderItems>
+  <ListofCustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-401" StopRoleRDN="2094" LocationName="ESSEX GROUP, INC." CustomerEDILocationNumber="425" StreetAddress1="3405 MEYER RD STE 170" City="FORT WAYNE" StateCode="IN" PostalCode="46803" Country="US" OpenDateTime="2016-02-22T10:30:00" CloseDateTime="2016-02-22T22:00:00" OpenDateTimeIsTimeNull="0" CloseDateTimeIsTimeNull="0" SpecialInstructions="1ST COME 1ST SERVENOTE    SHIPPER IS DEDICATED TO LTL SHIPMENTS BETWEEN 4PM - 10PM.  TRUCKLOAD SHIPMENTS SHIP BETWEEN 8AM - 4PM" SequenceNumber="1" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-402" StopRoleRDN="2096" LocationName="GENERAC POWER SYS-WHITEWATER" CustomerEDILocationNumber="00010458" StreetAddress1="757 N NEWCOMB ST" City="WHITEWATER" StateCode="WI" PostalCode="53190" Country="US" OpenDateTime="2016-02-23T07:00:00" CloseDateTime="2016-02-23T16:00:00" OpenDateTimeIsTimeNull="0" CloseDateTimeIsTimeNull="0" SequenceNumber="2" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-403" StopRoleRDN="2096" LocationName="GENERAC CORPORATION" CustomerEDILocationNumber="00010185" StreetAddress1="C/O GENERAC WAUKESHA PLANT" StreetAddress2="S45 W29290 HWY 59" City="WAUKESHA" StateCode="WI" PostalCode="53189" Country="US" OpenDateTime="2016-02-23T07:00:00" CloseDateTime="2016-02-23T16:00:00" OpenDateTimeIsTimeNull="0" CloseDateTimeIsTimeNull="0" SequenceNumber="3" ></CustomerOrderLocations>
+  </ListofCustomerOrderLocations>
+  <ListofReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20001" ForeignID="-1" EntityID="1" ReferenceDataCode="CITTN" Value="26718540024687" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20002" ForeignID="-1" EntityID="1" ReferenceDataCode="CON" Value="540024687" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20003" ForeignID="-201" EntityID="2" ReferenceDataCode="MBOL" Value="53" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20004" ForeignID="-202" EntityID="2" ReferenceDataCode="SHID" Value="540024687" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20005" ForeignID="-401" EntityID="5" ReferenceDataCode="SHID" Value="2852414001" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20006" ForeignID="-401" EntityID="5" ReferenceDataCode="SHID" Value="2852414002" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20007" ForeignID="-401" EntityID="5" ReferenceDataCode="SHID" Value="2852414003" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20008" ForeignID="-401" EntityID="5" ReferenceDataCode="SHID" Value="2852414004" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20009" ForeignID="-401" EntityID="5" ReferenceDataCode="SHID" Value="2852414005" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20010" ForeignID="-401" EntityID="5" ReferenceDataCode="SHID" Value="2857764001" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20011" ForeignID="-402" EntityID="5" ReferenceDataCode="SHID" Value="2857764001" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20012" ForeignID="-403" EntityID="5" ReferenceDataCode="SHID" Value="2852414001" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20013" ForeignID="-403" EntityID="5" ReferenceDataCode="SHID" Value="2852414002" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20014" ForeignID="-403" EntityID="5" ReferenceDataCode="SHID" Value="2852414003" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20015" ForeignID="-403" EntityID="5" ReferenceDataCode="SHID" Value="2852414004" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20016" ForeignID="-403" EntityID="5" ReferenceDataCode="SHID" Value="2852414005" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20017" ForeignID="-1001" EntityID="4" ReferenceDataCode="PO" Value="2852414003" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20018" ForeignID="-1002" EntityID="4" ReferenceDataCode="PO" Value="2852414001" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20019" ForeignID="-1003" EntityID="4" ReferenceDataCode="PO" Value="2852414005" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20020" ForeignID="-1004" EntityID="4" ReferenceDataCode="PO" Value="2852414004" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20021" ForeignID="-1005" EntityID="4" ReferenceDataCode="PO" Value="2852414002" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20022" ForeignID="-1006" EntityID="4" ReferenceDataCode="PO" Value="2857764001" ></ReferenceNumbers>
+  </ListofReferenceNumbers>
+  <ListofContacts>
+    <Contacts ContactID="-501" ForeignID="-401" EntityID="5" Name="Greg" ContactTypeCode="Contact" >
+      <ListofContactMethods>
+        <ContactMethods ContactMethodID="-550" ContactID="-501" MethodTypeCode="PHONE_GENR" Value="2604241708" ></ContactMethods>
+      </ListofContactMethods>
+    </Contacts>
+    <Contacts ContactID="-502" ForeignID="-402" EntityID="5" Name="TRAFFIC" ContactTypeCode="Contact" >
+      <ListofContactMethods>
+        <ContactMethods ContactMethodID="-551" ContactID="-502" MethodTypeCode="PHONE_GENR" Value="2624735514" ></ContactMethods>
+      </ListofContactMethods>
+    </Contacts>
+    <Contacts ContactID="-503" ForeignID="-403" EntityID="5" Name="TRAFFIC" ContactTypeCode="Contact" >
+      <ListofContactMethods>
+        <ContactMethods ContactMethodID="-552" ContactID="-503" MethodTypeCode="PHONE_GENR" Value="5555551212" ></ContactMethods>
+      </ListofContactMethods>
+    </Contacts>
+  </ListofContacts>
+  <LoadValues>
+    <ListofAvailableEquipmentTypes>
+      <AvailableEquipmentType AvailableEquipmentTypeID="-1201" EquipmentTypeRDN="1107" ></AvailableEquipmentType>
+    </ListofAvailableEquipmentTypes>
+  </LoadValues>
+</ProcessCustomerOrderRequestMessage>

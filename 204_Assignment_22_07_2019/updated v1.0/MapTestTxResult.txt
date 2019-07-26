@@ -1,0 +1,49 @@
+<ProcessCustomerOrderRequestMessage xmlns='http://xml.chrobinson.com/Oesi/v1' xmlns:baseRequest='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageBaseRequest.xsd' xmlns:baseResponse='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageBaseResponse.xsd' xmlns:Header='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageHeader.xsd' ProcessType="Create" EDIDocType="EDI" >
+  <Header:Header MessageID="-1" SourceSystem="EDI" TimeStamp="2019-07-23T20:57:48" UserID="System" AckRequested="0" ></Header:Header>
+  <CustomerOrder CustomerOrderID="-1" SourceRDN="480" ConditionRDN="379" ReceivedDateTime="2019-07-23T20:57:48" Notes="TOTAL DISTANCE = 282 MILD VALUE = 52646.4, LD VOL = 171" ></CustomerOrder>
+  <ListofOrderParties>
+    <CustomerOrderParties CustomerOrderPartyID="-201" CustomerOrderID="-1" PartyRoleRDN="7" PartyCode="C7168737" EDIFreightTermsCode="PP" CurrencyCode="USD" ></CustomerOrderParties>
+    <CustomerOrderParties CustomerOrderPartyID="-202" CustomerOrderID="-1" PartyRoleRDN="326" PartyCode="C7168737" EDIFreightTermsCode="PP" CurrencyCode="USD" ></CustomerOrderParties>
+  </ListofOrderParties>
+  <ListofCustomerOrderServices>
+    <CustomerOrderServices CustomerOrderServiceID="-3" CustomerOrderID="-1" ExpeditedYN="0" SellMode="TL" ></CustomerOrderServices>
+  </ListofCustomerOrderServices>
+  <ListofCustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1001" ProductName="18 1/2 HVY GP/MR 200 CU250 RP" CommodityCode="70" UnitQuantity="5064" UnitPackagingCode="PLT" TotalVolume="82" UnitVolumeCode="CubicFeet" TotalWeight="5472" UnitWeightCode="Pounds" TemperatureUnitsCode="Fahrenheit" RequiredTemperatureHigh="-15.0" RequiredTemperatureLow="0.0" TotalInsuranceValue="33333.33" HazEmergencyPhone="615-790-4555" PickSequenceNumber="1" DropSequenceNumber="2" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1002" ProductName="10 HVY GP/MR 200 ALUMTF 600" CommodityCode="60" UnitQuantity="4057" UnitPackagingCode="PLT" TotalVolume="0" UnitVolumeCode="CubicFeet" TotalWeight="4057" UnitWeightCode="Pounds" TemperatureUnitsCode="Fahrenheit" RequiredTemperatureHigh="-15.0" RequiredTemperatureLow="0.0" TotalInsuranceValue="33333.33" HazEmergencyPhone="615-790-4555" PickSequenceNumber="1" DropSequenceNumber="2" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1003" ProductName="8 HVY GP/MR 200 ALUMTF600 REEL" CommodityCode="60" UnitQuantity="4610" UnitPackagingCode="PLT" TotalVolume="0" UnitVolumeCode="CubicFeet" TotalWeight="4610" UnitWeightCode="Pounds" TemperatureUnitsCode="Fahrenheit" RequiredTemperatureHigh="-15.0" RequiredTemperatureLow="0.0" TotalInsuranceValue="33333.33" HazEmergencyPhone="615-790-4555" PickSequenceNumber="1" DropSequenceNumber="2" ></CustomerOrderItems>
+  </ListofCustomerOrderItems>
+  <ListofCustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-401" StopRoleRDN="2094" LocationName="ESSEX GROUP, INC." CustomerEDILocationNumber="304" StreetAddress1="ESSEX FRANKLIN PLANT" City="FRANKLIN" StateCode="TN" PostalCode="37064" Country="USA" OpenDateTime="2019-06-13T07:30:00" CloseDateTime="2019-06-13T15:30:00" OpenDateTimeIsTimeNull="1" CloseDateTimeIsTimeNull="1" SequenceNumber="1" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-402" StopRoleRDN="2096" LocationName="ESSEX GROUP, INC." CustomerEDILocationNumber="402" StreetAddress1="PKWY BLDG 100" City="MCDONOUGH" StateCode="GA" PostalCode="30253" Country="USA" OpenDateTime="2019-06-14T08:00:00" CloseDateTime="2019-06-14T15:00:00" OpenDateTimeIsTimeNull="1" CloseDateTimeIsTimeNull="1" SequenceNumber="2" ></CustomerOrderLocations>
+  </ListofCustomerOrderLocations>
+  <ListofReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-200001" ForeignID="-1" EntityID="1" ReferenceDataCode="CON" Value="788191987" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-200002" ForeignID="-201" EntityID="2" ReferenceDataCode="MBOL" Value="53" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-200003" ForeignID="-202" EntityID="2" ReferenceDataCode="SHID" Value="788191987" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-200004" ForeignID="1" EntityID="5" ReferenceDataCode="XXXX" Value="93623" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-200005" ForeignID="1" EntityID="5" ReferenceDataCode="XXXX" Value="93623" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-200006" ForeignID="1" EntityID="5" ReferenceDataCode="XXXX" Value="93623" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-200007" ForeignID="1" EntityID="5" ReferenceDataCode="XXXX" Value="93623" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-200008" ForeignID="-401" EntityID="5" ReferenceDataCode="DEL" Value="93623" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-200009" ForeignID="-1001" EntityID="5" ReferenceDataCode="PO" Value="93623001" ></ReferenceNumbers>
+  </ListofReferenceNumbers>
+  <ListofContacts>
+    <Contacts ContactID="-501" ForeignID="-401" EntityID="5" Name="Shelia Brasher" ContactTypeCode="contact" >
+      <ListofContactMethods>
+        <ContactMethods ContactMethodID="-551" ContactID="-501" MethodTypeCode="PHONE_GENR" Value="615-790-4555" ></ContactMethods>
+      </ListofContactMethods>
+    </Contacts>
+    <Contacts ContactID="-502" ForeignID="-402" EntityID="5" Name="DEBBI HAWKINS" ContactTypeCode="contact" >
+      <ListofContactMethods>
+        <ContactMethods ContactMethodID="-552" ContactID="-502" MethodTypeCode="PHONE_GENR" Value="770-898-5440" ></ContactMethods>
+      </ListofContactMethods>
+    </Contacts>
+  </ListofContacts>
+  <LoadValues>
+    <ListofAvailableEquipmentTypes>
+      <AvailableEquipmentType AvailableEquipmentTypeID="-1201" EquipmentTypeRDN="1107" ></AvailableEquipmentType>
+      <AvailableEquipmentType AvailableEquipmentTypeID="-1202" EquipmentTypeRDN="1109" ></AvailableEquipmentType>
+    </ListofAvailableEquipmentTypes>
+  </LoadValues>
+</ProcessCustomerOrderRequestMessage>

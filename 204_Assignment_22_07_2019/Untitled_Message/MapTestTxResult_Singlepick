@@ -1,0 +1,55 @@
+<ProcessCustomerOrderRequestMessage xmlns='http://xml.chrobinson.com/Oesi/v1' xmlns:baseRequest='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageBaseRequest.xsd' xmlns:baseResponse='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageBaseResponse.xsd' xmlns:Header='http://xml.chrobinson.com/Shared/MessageBase/v2/MessageHeader.xsd' ProcessType="Create" EDIDocType="EDI" >
+  <Header:Header MessageID="-1" SourceSystem="EDI" TimeStamp="2019-07-22T05:17:56" UserID="System" AckRequested="0" ></Header:Header>
+  <CustomerOrder CustomerOrderID="-1" SourceRDN="480" ConditionRDN="379" ReceivedDateTime="2019-07-22T05:17:56" Notes="TOTAL DISTANCE = 282 MILD VALUE = 52646.4, LD VOL = 171" ></CustomerOrder>
+  <ListofOrderParties>
+    <CustomerOrderParties CustomerOrderPartyID="-201" CustomerOrderID="-1" PartyRoleRDN="7" PartyCode="C7168737" EDIFreightTermsCode="PP" CurrencyCode="USD" ></CustomerOrderParties>
+    <CustomerOrderParties CustomerOrderPartyID="-202" CustomerOrderID="-1" PartyRoleRDN="326" PartyCode="C7168737" EDIFreightTermsCode="PP" CurrencyCode="USD" ></CustomerOrderParties>
+  </ListofOrderParties>
+  <ListofCustomerOrderServices>
+    <CustomerOrderServices CustomerOrderServiceID="-3" CustomerOrderID="-1" ExpeditedYN="0" SellMode="TL" ></CustomerOrderServices>
+  </ListofCustomerOrderServices>
+  <ListofCustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1001" ProductName="18 1/2 HVY GP/MR 200 CU250 RP" CommodityCode="70" UnitQuantity="5064" UnitPackagingCode="PLT" TotalVolume="82" UnitVolumeCode="CubicFeet" TotalWeight="5472" UnitWeightCode="Pounds" TotalInsuranceValue="33333" TotalPallets="5064" PickSequenceNumber="1" DropSequenceNumber="2" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1002" ProductName="10 HVY GP/MR 200 ALUMTF 600" CommodityCode="60" UnitQuantity="4057" UnitPackagingCode="PLT" TotalVolume="0" UnitVolumeCode="CubicFeet" TotalWeight="4057" UnitWeightCode="Pounds" TotalInsuranceValue="33333" TotalPallets="4057" PickSequenceNumber="1" DropSequenceNumber="2" ></CustomerOrderItems>
+    <CustomerOrderItems CustomerOrderItemID="-1003" ProductName="8 HVY GP/MR 200 ALUMTF600 REEL" CommodityCode="60" UnitQuantity="4610" UnitPackagingCode="PLT" TotalVolume="0" UnitVolumeCode="CubicFeet" TotalWeight="4610" UnitWeightCode="Pounds" TotalInsuranceValue="33333" TotalPallets="4610" PickSequenceNumber="1" DropSequenceNumber="2" ></CustomerOrderItems>
+  </ListofCustomerOrderItems>
+  <ListofCustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-401" StopRoleRDN="2094" LocationName="ESSEX GROUP, INC." CustomerEDILocationNumber="304" StreetAddress1="120 SOUTHEAST PARKWAY" StreetAddress2="ESSEX FRANKLIN PLANT" City="FRANKLIN" StateCode="TN" PostalCode="37064" Country="US" OpenDateTime="2019-06-13T07:30:00" CloseDateTime="2019-06-13T15:30:00" OpenDateTimeIsTimeNull="0" CloseDateTimeIsTimeNull="0" SequenceNumber="1" ></CustomerOrderLocations>
+    <CustomerOrderLocations CustomerOrderLocationID="-402" StopRoleRDN="2096" LocationName="ESSEX GROUP, INC." CustomerEDILocationNumber="402" StreetAddress1="446 WESTRIDGE PKWY BLDG 100" City="MCDONOUGH" StateCode="GA" PostalCode="30253" Country="US" OpenDateTime="2019-06-14T08:00:00" CloseDateTime="2019-06-14T15:00:00" OpenDateTimeIsTimeNull="0" CloseDateTimeIsTimeNull="0" SequenceNumber="2" ></CustomerOrderLocations>
+  </ListofCustomerOrderLocations>
+  <ListofReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20001" ForeignID="-1" EntityID="1" ReferenceDataCode="CITTN" Value="52836788191987" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20002" ForeignID="-1" EntityID="1" ReferenceDataCode="CON" Value="788191987" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20003" ForeignID="-201" EntityID="2" ReferenceDataCode="MBOL" Value="53" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20004" ForeignID="-202" EntityID="2" ReferenceDataCode="SHID" Value="788191987" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20005" ForeignID="-401" EntityID="5" ReferenceDataCode="SHID" Value="93623001" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20006" ForeignID="-401" EntityID="5" ReferenceDataCode="SHID" Value="93623002" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20007" ForeignID="-401" EntityID="5" ReferenceDataCode="SHID" Value="93623003" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20008" ForeignID="-401" EntityID="5" ReferenceDataCode="SHID" Value="93623004" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20009" ForeignID="-402" EntityID="5" ReferenceDataCode="SHID" Value="93623001" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20010" ForeignID="-402" EntityID="5" ReferenceDataCode="SHID" Value="93623002" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20011" ForeignID="-402" EntityID="5" ReferenceDataCode="SHID" Value="93623003" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20012" ForeignID="-402" EntityID="5" ReferenceDataCode="SHID" Value="93623004" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20013" ForeignID="-1001" EntityID="4" ReferenceDataCode="PO" Value="93623001" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20014" ForeignID="-1002" EntityID="4" ReferenceDataCode="PO" Value="93623003" ></ReferenceNumbers>
+    <ReferenceNumbers ReferenceNumberID="-20015" ForeignID="-1003" EntityID="4" ReferenceDataCode="PO" Value="93623002" ></ReferenceNumbers>
+  </ListofReferenceNumbers>
+  <ListofContacts>
+    <Contacts ContactID="-501" ForeignID="-401" EntityID="5" Name="Shelia Brasher" ContactTypeCode="Contact" >
+      <ListofContactMethods>
+        <ContactMethods ContactMethodID="-550" ContactID="-501" MethodTypeCode="PHONE_GENR" Value="6157904555" ></ContactMethods>
+      </ListofContactMethods>
+    </Contacts>
+    <Contacts ContactID="-502" ForeignID="-402" EntityID="5" Name="DEBBI HAWKINS" ContactTypeCode="Contact" >
+      <ListofContactMethods>
+        <ContactMethods ContactMethodID="-551" ContactID="-502" MethodTypeCode="PHONE_GENR" Value="7708985440" ></ContactMethods>
+      </ListofContactMethods>
+    </Contacts>
+  </ListofContacts>
+  <LoadValues>
+    <ListofAvailableEquipmentTypes>
+      <AvailableEquipmentType AvailableEquipmentTypeID="-1201" EquipmentTypeRDN="1107" ></AvailableEquipmentType>
+      <AvailableEquipmentType AvailableEquipmentTypeID="-1202" EquipmentTypeRDN="1109" ></AvailableEquipmentType>
+    </ListofAvailableEquipmentTypes>
+  </LoadValues>
+</ProcessCustomerOrderRequestMessage>
